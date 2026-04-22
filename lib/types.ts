@@ -16,6 +16,14 @@ export type AnalysisRecord = {
     synthesizer: string;
   };
   confidence: number;
+  confidenceBreakdown?: {
+    signalCount: number;
+    sourceDiversity: number;
+    verifiedRatio: number;
+    consistency: number;
+    signalStrength: "low" | "medium" | "high";
+  };
+  caveats?: string[];
   createdAt: string;
 };
 

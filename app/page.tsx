@@ -8,6 +8,12 @@ function scoreBadge(score: number): string {
   return "bg-amber-500/20 text-amber-300";
 }
 
+function confidenceBadge(label: string): string {
+  if (label === "high") return "bg-emerald-500/20 text-emerald-300";
+  if (label === "medium") return "bg-cyan-500/20 text-cyan-300";
+  return "bg-amber-500/20 text-amber-300";
+}
+
 export default async function Home() {
   const feed = await getFeedItems();
   const alerts = await getAlerts(5);
@@ -66,6 +72,15 @@ export default async function Home() {
             </div>
             <p className="text-sm text-zinc-300">{startup.description}</p>
             <p className="mt-3 text-sm text-zinc-200">{startup.insight}</p>
+            <div className="mt-3 flex items-center gap-2 text-xs">
+              <span className="rounded-full bg-zinc-800 px-2 py-1 text-zinc-200">
+                Confidence {Math.round(startup.confidence * 100)}%
+              </span>
+              <span className={`rounded-full px-2 py-1 ${confidenceBadge(startup.confidenceLabel)}`}>
+                Signal Strength {startup.confidenceLabel.toUpperCase()}
+              </span>
+            </div>
+            <p className="mt-2 text-xs text-zinc-500">{startup.caveat}</p>
             <div className="mt-3 border-t border-zinc-800 pt-3 text-xs text-zinc-400">
               {startup.latestChange ? (
                 <p>

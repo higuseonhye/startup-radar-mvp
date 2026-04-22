@@ -25,6 +25,8 @@ export async function watcherAgent() {
       insight: debate.insight,
       debateLog: debate.debateLog,
       confidence: debate.confidence,
+      confidenceBreakdown: debate.confidenceBreakdown,
+      caveats: debate.caveats,
       createdAt: new Date().toISOString(),
     });
 

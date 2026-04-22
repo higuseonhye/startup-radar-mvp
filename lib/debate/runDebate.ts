@@ -3,6 +3,7 @@ import { scoutAgent } from "@/lib/agents/scoutAgent";
 import { skepticAgent } from "@/lib/agents/skepticAgent";
 import { synthesizerAgent } from "@/lib/agents/synthesizerAgent";
 import { calculateAliveScore } from "@/lib/scoring/aliveScore";
+import { calculateConfidence } from "@/lib/scoring/confidence";
 import { SignalRecord, StartupRecord } from "@/lib/types";
 
 export async function runDebate(startup: StartupRecord, recentSignals: SignalRecord[]) {
@@ -19,12 +20,15 @@ export async function runDebate(startup: StartupRecord, recentSignals: SignalRec
     riskLevel: skeptic.riskLevel,
     caution: skeptic.caution,
   });
+  const confidenceModel = calculateConfidence(startup, recentSignals);
 
   return {
     aliveScore: calculateAliveScore(analyst.dimensions),
     dimensions: analyst.dimensions,
     insight: `${synthesizer.insight} ${synthesizer.narrative}`,
-    confidence: synthesizer.confidence,
+    confidence: confidenceModel.confidence,
+    confidenceBreakdown: confidenceModel.breakdown,
+    caveats: confidenceModel.caveats,
     debateLog: {
       scout: scout.summary,
       analyst: analyst.summary,
