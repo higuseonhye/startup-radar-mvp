@@ -2,7 +2,7 @@ import { buildAlert, sendWebhookAlert } from "@/lib/alerts/notifier";
 import { detectChange } from "@/lib/agents/changeDetector";
 import { runDebate } from "@/lib/debate/runDebate";
 import { readState, writeState } from "@/lib/memory/store";
-import { ingestSignals } from "@/lib/pipeline/ingest";
+import { ingestSignalsForStartups } from "@/lib/pipeline/ingest";
 import { normalizeSignals } from "@/lib/pipeline/normalize";
 import { AlertRecord } from "@/lib/types";
 
@@ -10,14 +10,27 @@ export async function watcherAgent() {
   const state = await readState();
   const updates: Array<{ startupId: string; name: string; prev: number; next: number; changed: boolean }> = [];
   const newAlerts: AlertRecord[] = [];
+  const incomingByStartup = await ingestSignalsForStartups(state.startups);
 
   for (const startup of state.startups) {
-    const incomingSignals = normalizeSignals(ingestSignals(startup.id));
+    const incomingSignals = normalizeSignals(incomingByStartup[startup.id] ?? []);
+    const previousAnalysis = startup.analyses[startup.analyses.length - 1];
+    const previousScore = previousAnalysis?.aliveScore ?? 0;
+
+    if (incomingSignals.length === 0) {
+      updates.push({
+        startupId: startup.id,
+        name: startup.name,
+        prev: previousScore,
+        next: previousScore,
+        changed: false,
+      });
+      continue;
+    }
+
     startup.signals.push(...incomingSignals);
 
     const debate = await runDebate(startup, incomingSignals);
-    const previousAnalysis = startup.analyses[startup.analyses.length - 1];
-    const previousScore = previousAnalysis?.aliveScore ?? debate.aliveScore;
 
     startup.analyses.push({
       aliveScore: debate.aliveScore,

@@ -154,6 +154,16 @@ export default async function StartupDetailPage({ params }: Params) {
                   {formatDate(signal.createdAt)}
                 </p>
                 <p className="mt-1 text-sm text-zinc-200">{signal.content}</p>
+                {signal.url ? (
+                  <a
+                    href={signal.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 inline-block text-xs text-cyan-300 hover:text-cyan-200"
+                  >
+                    Source link
+                  </a>
+                ) : null}
               </div>
             ))}
           </div>

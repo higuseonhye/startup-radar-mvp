@@ -1,1232 +1,5 @@
 {
-  "startups": [
-    {
-      "id": "synq",
-      "name": "Synq",
-      "description": "AI-native dev workflow assistant for software teams.",
-      "sector": "Developer Tools",
-      "stage": "Seed",
-      "signals": [
-        {
-          "id": "synq-s1",
-          "source": "Product Hunt",
-          "content": "Launched private beta with rapid invite growth.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "synq-1776839810932-0",
-          "source": "X",
-          "content": "Team member departure discussed in founder thread.",
-          "signalType": "team",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:36:50.932Z"
-        },
-        {
-          "id": "synq-1776839810936-1",
-          "source": "RSS",
-          "content": "Customer interview indicates this workflow is becoming mission critical.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.936Z"
-        },
-        {
-          "id": "synq-1776840524511-0",
-          "source": "RSS",
-          "content": "Customer interview indicates this workflow is becoming mission critical.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:48:44.511Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 74,
-          "dimensions": {
-            "learning": 79,
-            "distribution": 72,
-            "problem": 71,
-            "aiStructure": 75
-          },
-          "insight": "Synq is compounding through consistent shipping and growing developer referrals.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 72,
-          "dimensions": {
-            "learning": 73,
-            "distribution": 68,
-            "problem": 77,
-            "aiStructure": 70
-          },
-          "insight": "Synq is strongest in problem with a score of 77. Mixed evidence quality. Synq: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 2 recent signals across 2 categories.",
-            "analyst": "Synq: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Mixed evidence quality. Synq: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "synthesizer": "Synq is strongest in problem with a score of 77."
-          },
-          "confidence": 0.64,
-          "createdAt": "2026-04-22T06:36:50.936Z"
-        },
-        {
-          "aliveScore": 73,
-          "dimensions": {
-            "learning": 73,
-            "distribution": 68,
-            "problem": 83,
-            "aiStructure": 70
-          },
-          "insight": "Synq is strongest in problem with a score of 83. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "Synq: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "Synq is strongest in problem with a score of 83."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:48:44.512Z"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "id": "beamline",
-      "name": "Beamline",
-      "description": "Autonomous supply chain monitor for e-commerce operators.",
-      "sector": "Commerce Ops",
-      "stage": "Pre-seed",
-      "signals": [
-        {
-          "id": "beamline-s1",
-          "source": "RSS",
-          "content": "Pilot expanded from 3 to 7 warehouses.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "beamline-1776839810937-0",
-          "source": "Product Hunt",
-          "content": "Community comments highlighted improved onboarding experience.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "beamline-1776840524512-0",
-          "source": "GitHub",
-          "content": "New agent orchestration module merged with extensive tests.",
-          "signalType": "ai",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:48:44.512Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 67,
-          "dimensions": {
-            "learning": 66,
-            "distribution": 61,
-            "problem": 77,
-            "aiStructure": 64
-          },
-          "insight": "Beamline solves a painful workflow but needs stronger repeatable distribution.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 68,
-          "dimensions": {
-            "learning": 66,
-            "distribution": 68,
-            "problem": 77,
-            "aiStructure": 64
-          },
-          "insight": "Beamline is strongest in problem with a score of 77. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "Beamline: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "Beamline is strongest in problem with a score of 77."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "aliveScore": 70,
-          "dimensions": {
-            "learning": 66,
-            "distribution": 68,
-            "problem": 77,
-            "aiStructure": 71
-          },
-          "insight": "Beamline is strongest in problem with a score of 77. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "Beamline: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "Beamline is strongest in problem with a score of 77."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:48:44.512Z"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "id": "orbitiq",
-      "name": "OrbitIQ",
-      "description": "AI co-pilot for technical sales teams with proposal automation.",
-      "sector": "B2B SaaS",
-      "stage": "Seed",
-      "signals": [
-        {
-          "id": "orbitiq-s1",
-          "source": "GitHub",
-          "content": "New agent workflow templates released.",
-          "signalType": "ai",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "orbitiq-1776839810937-0",
-          "source": "X",
-          "content": "Founders shared weekly update with faster iteration cycle.",
-          "signalType": "product",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "orbitiq-1776840524512-0",
-          "source": "GitHub",
-          "content": "New agent orchestration module merged with extensive tests.",
-          "signalType": "ai",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:48:44.512Z"
-        },
-        {
-          "id": "orbitiq-1776840524512-1",
-          "source": "X",
-          "content": "Team member departure discussed in founder thread.",
-          "signalType": "team",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:48:44.512Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 71,
-          "dimensions": {
-            "learning": 70,
-            "distribution": 66,
-            "problem": 74,
-            "aiStructure": 73
-          },
-          "insight": "OrbitIQ has strong AI dependency and credible value proof.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 72,
-          "dimensions": {
-            "learning": 76,
-            "distribution": 66,
-            "problem": 74,
-            "aiStructure": 73
-          },
-          "insight": "OrbitIQ is strongest in learning with a score of 76. Signal quality is weak (100% unverified). Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "OrbitIQ: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Signal quality is weak (100% unverified).",
-            "synthesizer": "OrbitIQ is strongest in learning with a score of 76."
-          },
-          "confidence": 0.52,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "aliveScore": 70,
-          "dimensions": {
-            "learning": 70,
-            "distribution": 62,
-            "problem": 74,
-            "aiStructure": 75
-          },
-          "insight": "OrbitIQ is strongest in aiStructure with a score of 75. Mixed evidence quality. OrbitIQ: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 2 recent signals across 2 categories.",
-            "analyst": "OrbitIQ: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Mixed evidence quality. OrbitIQ: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "synthesizer": "OrbitIQ is strongest in aiStructure with a score of 75."
-          },
-          "confidence": 0.64,
-          "createdAt": "2026-04-22T06:48:44.512Z"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "id": "pulsegrid",
-      "name": "PulseGrid",
-      "description": "Real-time retail demand sensing for independent brands.",
-      "sector": "Retail AI",
-      "stage": "Pre-seed",
-      "signals": [
-        {
-          "id": "pulsegrid-s1",
-          "source": "X",
-          "content": "Founders reported repeat weekly usage from 40 stores.",
-          "signalType": "distribution",
-          "isVerified": false,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "pulsegrid-1776839810937-0",
-          "source": "RSS",
-          "content": "Customer interview indicates this workflow is becoming mission critical.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "pulsegrid-1776839810937-1",
-          "source": "GitHub",
-          "content": "New agent orchestration module merged with extensive tests.",
-          "signalType": "ai",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "pulsegrid-1776840524512-0",
-          "source": "X",
-          "content": "Founders shared weekly update with faster iteration cycle.",
-          "signalType": "product",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 65,
-          "dimensions": {
-            "learning": 63,
-            "distribution": 68,
-            "problem": 69,
-            "aiStructure": 61
-          },
-          "insight": "PulseGrid spreads fast in communities but needs deeper moat evidence.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 68,
-          "dimensions": {
-            "learning": 63,
-            "distribution": 68,
-            "problem": 75,
-            "aiStructure": 68
-          },
-          "insight": "PulseGrid is strongest in problem with a score of 75. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 2 recent signals across 2 categories.",
-            "analyst": "PulseGrid: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "PulseGrid is strongest in problem with a score of 75."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "aliveScore": 70,
-          "dimensions": {
-            "learning": 69,
-            "distribution": 68,
-            "problem": 75,
-            "aiStructure": 68
-          },
-          "insight": "PulseGrid is strongest in problem with a score of 75. Signal quality is weak (100% unverified). Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "PulseGrid: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Signal quality is weak (100% unverified).",
-            "synthesizer": "PulseGrid is strongest in problem with a score of 75."
-          },
-          "confidence": 0.52,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "changes": [
-        {
-          "id": "pulsegrid-change-1776839810937",
-          "prevScore": 65,
-          "newScore": 68,
-          "reason": "Signal momentum improved",
-          "evidence": "Customer interview indicates this workflow is becoming mission critical. | New agent orchestration module merged with extensive tests.",
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        }
-      ]
-    },
-    {
-      "id": "nota",
-      "name": "Nota",
-      "description": "Autonomous compliance monitor for fintech operations.",
-      "sector": "Fintech Infrastructure",
-      "stage": "Seed",
-      "signals": [
-        {
-          "id": "nota-s1",
-          "source": "RSS",
-          "content": "Pilot customer renewed after reducing manual audit workload by 35%.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "nota-1776839810937-0",
-          "source": "Product Hunt",
-          "content": "Community comments highlighted improved onboarding experience.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "nota-1776840524513-0",
-          "source": "Product Hunt",
-          "content": "Community comments highlighted improved onboarding experience.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 72,
-          "dimensions": {
-            "learning": 74,
-            "distribution": 60,
-            "problem": 82,
-            "aiStructure": 72
-          },
-          "insight": "Nota has strong problem urgency with early evidence of tangible ROI.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 73,
-          "dimensions": {
-            "learning": 74,
-            "distribution": 67,
-            "problem": 82,
-            "aiStructure": 72
-          },
-          "insight": "Nota is strongest in problem with a score of 82. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "Nota: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "Nota is strongest in problem with a score of 82."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "aliveScore": 63,
-          "dimensions": {
-            "learning": 71,
-            "distribution": 65,
-            "problem": 80,
-            "aiStructure": 70
-          },
-          "insight": "Demo scenario replay: Compliance workflow reliability concerns surfaced.",
-          "debateLog": {
-            "scout": "Scenario evidence: Two pilot operators paused rollout pending model audits.",
-            "analyst": "Applied deterministic scenario delta -10.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 73 -> 63."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:36:56.779Z"
-        },
-        {
-          "aliveScore": 53,
-          "dimensions": {
-            "learning": 68,
-            "distribution": 63,
-            "problem": 78,
-            "aiStructure": 68
-          },
-          "insight": "Demo scenario replay: Compliance workflow reliability concerns surfaced.",
-          "debateLog": {
-            "scout": "Scenario evidence: Two pilot operators paused rollout pending model audits.",
-            "analyst": "Applied deterministic scenario delta -10.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 63 -> 53."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:38:26.187Z"
-        },
-        {
-          "aliveScore": 43,
-          "dimensions": {
-            "learning": 65,
-            "distribution": 61,
-            "problem": 76,
-            "aiStructure": 66
-          },
-          "insight": "Demo scenario replay: Compliance workflow reliability concerns surfaced.",
-          "debateLog": {
-            "scout": "Scenario evidence: Two pilot operators paused rollout pending model audits.",
-            "analyst": "Applied deterministic scenario delta -10.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 53 -> 43."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:38:31.936Z"
-        },
-        {
-          "aliveScore": 68,
-          "dimensions": {
-            "learning": 65,
-            "distribution": 68,
-            "problem": 76,
-            "aiStructure": 66
-          },
-          "insight": "Nota is strongest in problem with a score of 76. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "Nota: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "Nota is strongest in problem with a score of 76."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "changes": [
-        {
-          "id": "nota-demo-change-1776839816779",
-          "prevScore": 73,
-          "newScore": 63,
-          "reason": "Compliance workflow reliability concerns surfaced",
-          "evidence": "Two pilot operators paused rollout pending model audits.",
-          "createdAt": "2026-04-22T06:36:56.779Z"
-        },
-        {
-          "id": "nota-demo-change-1776839906187",
-          "prevScore": 63,
-          "newScore": 53,
-          "reason": "Compliance workflow reliability concerns surfaced",
-          "evidence": "Two pilot operators paused rollout pending model audits.",
-          "createdAt": "2026-04-22T06:38:26.187Z"
-        },
-        {
-          "id": "nota-demo-change-1776839911936",
-          "prevScore": 53,
-          "newScore": 43,
-          "reason": "Compliance workflow reliability concerns surfaced",
-          "evidence": "Two pilot operators paused rollout pending model audits.",
-          "createdAt": "2026-04-22T06:38:31.936Z"
-        },
-        {
-          "id": "nota-change-1776840524513",
-          "prevScore": 43,
-          "newScore": 68,
-          "reason": "Signal momentum improved",
-          "evidence": "Community comments highlighted improved onboarding experience.",
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ]
-    },
-    {
-      "id": "hiverun",
-      "name": "HiveRun",
-      "description": "Agent-based customer support orchestration for SaaS companies.",
-      "sector": "Support Automation",
-      "stage": "Seed",
-      "signals": [
-        {
-          "id": "hiverun-s1",
-          "source": "GitHub",
-          "content": "Released parallel agent execution mode with retrieval memory.",
-          "signalType": "ai",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "hiverun-1776839810937-0",
-          "source": "RSS",
-          "content": "Customer interview indicates this workflow is becoming mission critical.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "hiverun-1776840524513-0",
-          "source": "X",
-          "content": "Team member departure discussed in founder thread.",
-          "signalType": "team",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 74,
-          "dimensions": {
-            "learning": 77,
-            "distribution": 70,
-            "problem": 68,
-            "aiStructure": 78
-          },
-          "insight": "HiveRun shows strong AI dependency and consistent technical execution.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 75,
-          "dimensions": {
-            "learning": 77,
-            "distribution": 70,
-            "problem": 74,
-            "aiStructure": 78
-          },
-          "insight": "HiveRun is strongest in aiStructure with a score of 78. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "HiveRun: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "HiveRun is strongest in aiStructure with a score of 78."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "aliveScore": 83,
-          "dimensions": {
-            "learning": 80,
-            "distribution": 72,
-            "problem": 76,
-            "aiStructure": 80
-          },
-          "insight": "Demo scenario replay: Agent orchestration improvements increased support resolution speed.",
-          "debateLog": {
-            "scout": "Scenario evidence: Support teams reported faster median time-to-resolution.",
-            "analyst": "Applied deterministic scenario delta 8.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 75 -> 83."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:36:56.779Z"
-        },
-        {
-          "aliveScore": 91,
-          "dimensions": {
-            "learning": 83,
-            "distribution": 74,
-            "problem": 78,
-            "aiStructure": 82
-          },
-          "insight": "Demo scenario replay: Agent orchestration improvements increased support resolution speed.",
-          "debateLog": {
-            "scout": "Scenario evidence: Support teams reported faster median time-to-resolution.",
-            "analyst": "Applied deterministic scenario delta 8.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 83 -> 91."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:38:26.188Z"
-        },
-        {
-          "aliveScore": 99,
-          "dimensions": {
-            "learning": 86,
-            "distribution": 76,
-            "problem": 80,
-            "aiStructure": 84
-          },
-          "insight": "Demo scenario replay: Agent orchestration improvements increased support resolution speed.",
-          "debateLog": {
-            "scout": "Scenario evidence: Support teams reported faster median time-to-resolution.",
-            "analyst": "Applied deterministic scenario delta 8.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 91 -> 99."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:38:31.936Z"
-        },
-        {
-          "aliveScore": 78,
-          "dimensions": {
-            "learning": 80,
-            "distribution": 72,
-            "problem": 80,
-            "aiStructure": 79
-          },
-          "insight": "HiveRun is strongest in learning with a score of 80. Signal quality is weak (100% unverified). Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "HiveRun: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Signal quality is weak (100% unverified).",
-            "synthesizer": "HiveRun is strongest in learning with a score of 80."
-          },
-          "confidence": 0.52,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "changes": [
-        {
-          "id": "hiverun-demo-change-1776839816779",
-          "prevScore": 75,
-          "newScore": 83,
-          "reason": "Agent orchestration improvements increased support resolution speed",
-          "evidence": "Support teams reported faster median time-to-resolution.",
-          "createdAt": "2026-04-22T06:36:56.779Z"
-        },
-        {
-          "id": "hiverun-demo-change-1776839906188",
-          "prevScore": 83,
-          "newScore": 91,
-          "reason": "Agent orchestration improvements increased support resolution speed",
-          "evidence": "Support teams reported faster median time-to-resolution.",
-          "createdAt": "2026-04-22T06:38:26.188Z"
-        },
-        {
-          "id": "hiverun-demo-change-1776839911936",
-          "prevScore": 91,
-          "newScore": 99,
-          "reason": "Agent orchestration improvements increased support resolution speed",
-          "evidence": "Support teams reported faster median time-to-resolution.",
-          "createdAt": "2026-04-22T06:38:31.936Z"
-        },
-        {
-          "id": "hiverun-change-1776840524513",
-          "prevScore": 99,
-          "newScore": 78,
-          "reason": "Risk signals increased",
-          "evidence": "Team member departure discussed in founder thread.",
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ]
-    },
-    {
-      "id": "trailiq",
-      "name": "TrailIQ",
-      "description": "Autonomous outbound intelligence layer for GTM teams.",
-      "sector": "SalesTech",
-      "stage": "Pre-seed",
-      "signals": [
-        {
-          "id": "trailiq-s1",
-          "source": "Product Hunt",
-          "content": "Users highlighted higher reply rates after one week of use.",
-          "signalType": "problem",
-          "isVerified": false,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "trailiq-1776839810937-0",
-          "source": "X",
-          "content": "Team member departure discussed in founder thread.",
-          "signalType": "team",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "trailiq-1776839810937-1",
-          "source": "X",
-          "content": "Founders shared weekly update with faster iteration cycle.",
-          "signalType": "product",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "trailiq-1776840524513-0",
-          "source": "X",
-          "content": "Founders shared weekly update with faster iteration cycle.",
-          "signalType": "product",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 68,
-          "dimensions": {
-            "learning": 71,
-            "distribution": 64,
-            "problem": 66,
-            "aiStructure": 70
-          },
-          "insight": "TrailIQ has promising directional fit, but signal confidence is mixed.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 66,
-          "dimensions": {
-            "learning": 71,
-            "distribution": 60,
-            "problem": 66,
-            "aiStructure": 65
-          },
-          "insight": "TrailIQ is strongest in learning with a score of 71. Signal quality is weak (100% unverified). Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 2 recent signals across 2 categories.",
-            "analyst": "TrailIQ: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Signal quality is weak (100% unverified).",
-            "synthesizer": "TrailIQ is strongest in learning with a score of 71."
-          },
-          "confidence": 0.52,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "aliveScore": 68,
-          "dimensions": {
-            "learning": 77,
-            "distribution": 60,
-            "problem": 66,
-            "aiStructure": 65
-          },
-          "insight": "TrailIQ is strongest in learning with a score of 77. Signal quality is weak (100% unverified). Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "TrailIQ: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Signal quality is weak (100% unverified).",
-            "synthesizer": "TrailIQ is strongest in learning with a score of 77."
-          },
-          "confidence": 0.52,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "id": "quarry",
-      "name": "Quarry",
-      "description": "Construction planning co-pilot with autonomous schedule risk detection.",
-      "sector": "PropTech",
-      "stage": "Seed",
-      "signals": [
-        {
-          "id": "quarry-s1",
-          "source": "RSS",
-          "content": "General contractor expanded usage across 5 active projects.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "quarry-1776839810937-0",
-          "source": "Product Hunt",
-          "content": "Community comments highlighted improved onboarding experience.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "quarry-1776840524513-0",
-          "source": "RSS",
-          "content": "Customer interview indicates this workflow is becoming mission critical.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 67,
-          "dimensions": {
-            "learning": 69,
-            "distribution": 57,
-            "problem": 80,
-            "aiStructure": 67
-          },
-          "insight": "Quarry is solving a painful problem but distribution remains concentrated.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 69,
-          "dimensions": {
-            "learning": 69,
-            "distribution": 64,
-            "problem": 80,
-            "aiStructure": 67
-          },
-          "insight": "Quarry is strongest in problem with a score of 80. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "Quarry: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "Quarry is strongest in problem with a score of 80."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "aliveScore": 71,
-          "dimensions": {
-            "learning": 69,
-            "distribution": 64,
-            "problem": 86,
-            "aiStructure": 67
-          },
-          "insight": "Quarry is strongest in problem with a score of 86. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "Quarry: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "Quarry is strongest in problem with a score of 86."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "id": "atlasbio",
-      "name": "AtlasBio",
-      "description": "AI-first biotech literature synthesis and experiment planning.",
-      "sector": "BioTech AI",
-      "stage": "Pre-seed",
-      "signals": [
-        {
-          "id": "atlasbio-s1",
-          "source": "GitHub",
-          "content": "Team open-sourced retrieval benchmark scripts for wet-lab planning.",
-          "signalType": "ai",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "atlasbio-1776839810937-0",
-          "source": "X",
-          "content": "Founders shared weekly update with faster iteration cycle.",
-          "signalType": "product",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:36:50.937Z"
-        },
-        {
-          "id": "atlasbio-1776840524513-0",
-          "source": "X",
-          "content": "Team member departure discussed in founder thread.",
-          "signalType": "team",
-          "isVerified": false,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        },
-        {
-          "id": "atlasbio-1776840524513-1",
-          "source": "GitHub",
-          "content": "New agent orchestration module merged with extensive tests.",
-          "signalType": "ai",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 70,
-          "dimensions": {
-            "learning": 75,
-            "distribution": 52,
-            "problem": 73,
-            "aiStructure": 81
-          },
-          "insight": "AtlasBio has high technical leverage with still-limited market spread.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 72,
-          "dimensions": {
-            "learning": 81,
-            "distribution": 52,
-            "problem": 73,
-            "aiStructure": 81
-          },
-          "insight": "AtlasBio is strongest in learning with a score of 81. Signal quality is weak (100% unverified). Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "AtlasBio: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Signal quality is weak (100% unverified).",
-            "synthesizer": "AtlasBio is strongest in learning with a score of 81."
-          },
-          "confidence": 0.52,
-          "createdAt": "2026-04-22T06:36:50.938Z"
-        },
-        {
-          "aliveScore": 70,
-          "dimensions": {
-            "learning": 75,
-            "distribution": 48,
-            "problem": 73,
-            "aiStructure": 83
-          },
-          "insight": "AtlasBio is strongest in aiStructure with a score of 83. Mixed evidence quality. AtlasBio: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 2 recent signals across 2 categories.",
-            "analyst": "AtlasBio: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Mixed evidence quality. AtlasBio: Observed 2 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
-            "synthesizer": "AtlasBio is strongest in aiStructure with a score of 83."
-          },
-          "confidence": 0.64,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "id": "sparknode",
-      "name": "SparkNode",
-      "description": "AI-native cloud cost optimizer with autonomous remediation.",
-      "sector": "Cloud Infra",
-      "stage": "Seed",
-      "signals": [
-        {
-          "id": "sparknode-s1",
-          "source": "RSS",
-          "content": "Three startups reported 18% monthly infra savings after rollout.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "id": "sparknode-1776839810938-0",
-          "source": "Product Hunt",
-          "content": "Community comments highlighted improved onboarding experience.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.938Z"
-        },
-        {
-          "id": "sparknode-1776839810938-1",
-          "source": "Product Hunt",
-          "content": "Community comments highlighted improved onboarding experience.",
-          "signalType": "distribution",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:36:50.938Z"
-        },
-        {
-          "id": "sparknode-1776840524513-0",
-          "source": "RSS",
-          "content": "Customer interview indicates this workflow is becoming mission critical.",
-          "signalType": "problem",
-          "isVerified": true,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "analyses": [
-        {
-          "aliveScore": 76,
-          "dimensions": {
-            "learning": 78,
-            "distribution": 71,
-            "problem": 79,
-            "aiStructure": 77
-          },
-          "insight": "SparkNode combines urgent pain relief with fast learning loops.",
-          "debateLog": {
-            "scout": "Observed startup-level baseline market and product signals.",
-            "analyst": "Scored across learning, distribution, problem, and AI structure.",
-            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
-            "synthesizer": "Use this as baseline state for change tracking."
-          },
-          "confidence": 0.65,
-          "createdAt": "2026-04-19T12:00:00.000Z"
-        },
-        {
-          "aliveScore": 80,
-          "dimensions": {
-            "learning": 78,
-            "distribution": 85,
-            "problem": 79,
-            "aiStructure": 77
-          },
-          "insight": "SparkNode is strongest in distribution with a score of 85. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 2 recent signals across 1 categories.",
-            "analyst": "SparkNode: Observed 2 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "SparkNode is strongest in distribution with a score of 85."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:36:50.938Z"
-        },
-        {
-          "aliveScore": 92,
-          "dimensions": {
-            "learning": 82,
-            "distribution": 87,
-            "problem": 82,
-            "aiStructure": 79
-          },
-          "insight": "Demo scenario replay: New enterprise customer cohort expanded with measurable savings.",
-          "debateLog": {
-            "scout": "Scenario evidence: Three new logos reported sustained infra-cost reduction.",
-            "analyst": "Applied deterministic scenario delta 12.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 80 -> 92."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:36:56.776Z"
-        },
-        {
-          "aliveScore": 100,
-          "dimensions": {
-            "learning": 86,
-            "distribution": 89,
-            "problem": 85,
-            "aiStructure": 81
-          },
-          "insight": "Demo scenario replay: New enterprise customer cohort expanded with measurable savings.",
-          "debateLog": {
-            "scout": "Scenario evidence: Three new logos reported sustained infra-cost reduction.",
-            "analyst": "Applied deterministic scenario delta 12.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 92 -> 100."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:38:26.187Z"
-        },
-        {
-          "aliveScore": 100,
-          "dimensions": {
-            "learning": 90,
-            "distribution": 91,
-            "problem": 88,
-            "aiStructure": 83
-          },
-          "insight": "Demo scenario replay: New enterprise customer cohort expanded with measurable savings.",
-          "debateLog": {
-            "scout": "Scenario evidence: Three new logos reported sustained infra-cost reduction.",
-            "analyst": "Applied deterministic scenario delta 12.",
-            "skeptic": "Replay mode is synthetic and intended for demo storytelling.",
-            "synthesizer": "Score moved 100 -> 100."
-          },
-          "confidence": 0.7,
-          "createdAt": "2026-04-22T06:38:31.936Z"
-        },
-        {
-          "aliveScore": 89,
-          "dimensions": {
-            "learning": 90,
-            "distribution": 91,
-            "problem": 94,
-            "aiStructure": 83
-          },
-          "insight": "SparkNode is strongest in problem with a score of 94. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
-          "debateLog": {
-            "scout": "Observed 1 recent signals across 1 categories.",
-            "analyst": "SparkNode: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
-            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
-            "synthesizer": "SparkNode is strongest in problem with a score of 94."
-          },
-          "confidence": 0.76,
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ],
-      "changes": [
-        {
-          "id": "sparknode-change-1776839810938",
-          "prevScore": 76,
-          "newScore": 80,
-          "reason": "Signal momentum improved",
-          "evidence": "Community comments highlighted improved onboarding experience. | Community comments highlighted improved onboarding experience.",
-          "createdAt": "2026-04-22T06:36:50.938Z"
-        },
-        {
-          "id": "sparknode-demo-change-1776839816779",
-          "prevScore": 80,
-          "newScore": 92,
-          "reason": "New enterprise customer cohort expanded with measurable savings",
-          "evidence": "Three new logos reported sustained infra-cost reduction.",
-          "createdAt": "2026-04-22T06:36:56.779Z"
-        },
-        {
-          "id": "sparknode-demo-change-1776839906187",
-          "prevScore": 92,
-          "newScore": 100,
-          "reason": "New enterprise customer cohort expanded with measurable savings",
-          "evidence": "Three new logos reported sustained infra-cost reduction.",
-          "createdAt": "2026-04-22T06:38:26.187Z"
-        },
-        {
-          "id": "sparknode-demo-change-1776839911936",
-          "prevScore": 100,
-          "newScore": 100,
-          "reason": "New enterprise customer cohort expanded with measurable savings",
-          "evidence": "Three new logos reported sustained infra-cost reduction.",
-          "createdAt": "2026-04-22T06:38:31.936Z"
-        },
-        {
-          "id": "sparknode-change-1776840524513",
-          "prevScore": 100,
-          "newScore": 89,
-          "reason": "Risk signals increased",
-          "evidence": "Customer interview indicates this workflow is becoming mission critical.",
-          "createdAt": "2026-04-22T06:48:44.513Z"
-        }
-      ]
-    }
-  ],
+  "updatedAt": "2026-04-22T09:12:49.519Z",
   "portfolio": [
     {
       "startupId": "synq",
@@ -1247,147 +20,387 @@
       "createdAt": "2026-04-20T12:30:00.000Z"
     }
   ],
-  "alerts": [
+  "alerts": [],
+  "startups": [
     {
-      "id": "alert-sparknode-1776840524513",
-      "startupId": "sparknode",
-      "startupName": "SparkNode",
-      "title": "Alive Score dropped: 100 -> 89",
-      "message": "Risk signals increased. Evidence: Customer interview indicates this workflow is becoming mission critical.",
-      "severity": "high",
-      "createdAt": "2026-04-22T06:48:44.513Z",
-      "read": false
+      "id": "synq",
+      "name": "Synq",
+      "description": "AI-native dev workflow assistant for software teams.",
+      "sector": "Developer Tools",
+      "stage": "Seed",
+      "signals": [
+        {
+          "id": "synq-s1",
+          "source": "Product Hunt",
+          "content": "Launched private beta with rapid invite growth.",
+          "signalType": "distribution",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 74,
+          "dimensions": {
+            "learning": 79,
+            "distribution": 72,
+            "problem": 71,
+            "aiStructure": 75
+          },
+          "insight": "Synq is compounding through consistent shipping and growing developer referrals.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-hiverun-1776840524513",
-      "startupId": "hiverun",
-      "startupName": "HiveRun",
-      "title": "Alive Score dropped: 99 -> 78",
-      "message": "Risk signals increased. Evidence: Team member departure discussed in founder thread.",
-      "severity": "high",
-      "createdAt": "2026-04-22T06:48:44.513Z",
-      "read": false
+      "id": "beamline",
+      "name": "Beamline",
+      "description": "Autonomous supply chain monitor for e-commerce operators.",
+      "sector": "Commerce Ops",
+      "stage": "Pre-seed",
+      "signals": [
+        {
+          "id": "beamline-s1",
+          "source": "RSS",
+          "content": "Pilot expanded from 3 to 7 warehouses.",
+          "signalType": "problem",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 67,
+          "dimensions": {
+            "learning": 66,
+            "distribution": 61,
+            "problem": 77,
+            "aiStructure": 64
+          },
+          "insight": "Beamline solves a painful workflow but needs stronger repeatable distribution.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-nota-1776840524513",
-      "startupId": "nota",
-      "startupName": "Nota",
-      "title": "Alive Score increased: 43 -> 68",
-      "message": "Signal momentum improved. Evidence: Community comments highlighted improved onboarding experience.",
-      "severity": "high",
-      "createdAt": "2026-04-22T06:48:44.513Z",
-      "read": false
+      "id": "orbitiq",
+      "name": "OrbitIQ",
+      "description": "AI co-pilot for technical sales teams with proposal automation.",
+      "sector": "B2B SaaS",
+      "stage": "Seed",
+      "signals": [
+        {
+          "id": "orbitiq-s1",
+          "source": "GitHub",
+          "content": "New agent workflow templates released.",
+          "signalType": "ai",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 71,
+          "dimensions": {
+            "learning": 70,
+            "distribution": 66,
+            "problem": 74,
+            "aiStructure": 73
+          },
+          "insight": "OrbitIQ has strong AI dependency and credible value proof.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-hiverun-1776839911936",
-      "startupId": "hiverun",
-      "startupName": "HiveRun",
-      "title": "Alive Score increased: 91 -> 99",
-      "message": "Agent orchestration improvements increased support resolution speed. Evidence: Support teams reported faster median time-to-resolution.",
-      "severity": "medium",
-      "createdAt": "2026-04-22T06:38:31.936Z",
-      "read": false
+      "id": "pulsegrid",
+      "name": "PulseGrid",
+      "description": "Real-time retail demand sensing for independent brands.",
+      "sector": "Retail AI",
+      "stage": "Pre-seed",
+      "signals": [
+        {
+          "id": "pulsegrid-s1",
+          "source": "X",
+          "content": "Founders reported repeat weekly usage from 40 stores.",
+          "signalType": "distribution",
+          "isVerified": false,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 65,
+          "dimensions": {
+            "learning": 63,
+            "distribution": 68,
+            "problem": 69,
+            "aiStructure": 61
+          },
+          "insight": "PulseGrid spreads fast in communities but needs deeper moat evidence.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-nota-1776839911936",
-      "startupId": "nota",
-      "startupName": "Nota",
-      "title": "Alive Score dropped: 53 -> 43",
-      "message": "Compliance workflow reliability concerns surfaced. Evidence: Two pilot operators paused rollout pending model audits.",
-      "severity": "high",
-      "createdAt": "2026-04-22T06:38:31.936Z",
-      "read": false
+      "id": "nota",
+      "name": "Nota",
+      "description": "Autonomous compliance monitor for fintech operations.",
+      "sector": "Fintech Infrastructure",
+      "stage": "Seed",
+      "signals": [
+        {
+          "id": "nota-s1",
+          "source": "RSS",
+          "content": "Pilot customer renewed after reducing manual audit workload by 35%.",
+          "signalType": "problem",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 72,
+          "dimensions": {
+            "learning": 74,
+            "distribution": 60,
+            "problem": 82,
+            "aiStructure": 72
+          },
+          "insight": "Nota has strong problem urgency with early evidence of tangible ROI.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-sparknode-1776839911936",
-      "startupId": "sparknode",
-      "startupName": "SparkNode",
-      "title": "Alive Score increased: 100 -> 100",
-      "message": "New enterprise customer cohort expanded with measurable savings. Evidence: Three new logos reported sustained infra-cost reduction.",
-      "severity": "low",
-      "createdAt": "2026-04-22T06:38:31.936Z",
-      "read": false
+      "id": "hiverun",
+      "name": "HiveRun",
+      "description": "Agent-based customer support orchestration for SaaS companies.",
+      "sector": "Support Automation",
+      "stage": "Seed",
+      "signals": [
+        {
+          "id": "hiverun-s1",
+          "source": "GitHub",
+          "content": "Released parallel agent execution mode with retrieval memory.",
+          "signalType": "ai",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 74,
+          "dimensions": {
+            "learning": 77,
+            "distribution": 70,
+            "problem": 68,
+            "aiStructure": 78
+          },
+          "insight": "HiveRun shows strong AI dependency and consistent technical execution.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-hiverun-1776839906188",
-      "startupId": "hiverun",
-      "startupName": "HiveRun",
-      "title": "Alive Score increased: 83 -> 91",
-      "message": "Agent orchestration improvements increased support resolution speed. Evidence: Support teams reported faster median time-to-resolution.",
-      "severity": "medium",
-      "createdAt": "2026-04-22T06:38:26.188Z",
-      "read": false
+      "id": "trailiq",
+      "name": "TrailIQ",
+      "description": "Autonomous outbound intelligence layer for GTM teams.",
+      "sector": "SalesTech",
+      "stage": "Pre-seed",
+      "signals": [
+        {
+          "id": "trailiq-s1",
+          "source": "Product Hunt",
+          "content": "Users highlighted higher reply rates after one week of use.",
+          "signalType": "problem",
+          "isVerified": false,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 68,
+          "dimensions": {
+            "learning": 71,
+            "distribution": 64,
+            "problem": 66,
+            "aiStructure": 70
+          },
+          "insight": "TrailIQ has promising directional fit, but signal confidence is mixed.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-nota-1776839906188",
-      "startupId": "nota",
-      "startupName": "Nota",
-      "title": "Alive Score dropped: 63 -> 53",
-      "message": "Compliance workflow reliability concerns surfaced. Evidence: Two pilot operators paused rollout pending model audits.",
-      "severity": "high",
-      "createdAt": "2026-04-22T06:38:26.188Z",
-      "read": false
+      "id": "quarry",
+      "name": "Quarry",
+      "description": "Construction planning co-pilot with autonomous schedule risk detection.",
+      "sector": "PropTech",
+      "stage": "Seed",
+      "signals": [
+        {
+          "id": "quarry-s1",
+          "source": "RSS",
+          "content": "General contractor expanded usage across 5 active projects.",
+          "signalType": "distribution",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 67,
+          "dimensions": {
+            "learning": 69,
+            "distribution": 57,
+            "problem": 80,
+            "aiStructure": 67
+          },
+          "insight": "Quarry is solving a painful problem but distribution remains concentrated.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-sparknode-1776839906187",
-      "startupId": "sparknode",
-      "startupName": "SparkNode",
-      "title": "Alive Score increased: 92 -> 100",
-      "message": "New enterprise customer cohort expanded with measurable savings. Evidence: Three new logos reported sustained infra-cost reduction.",
-      "severity": "medium",
-      "createdAt": "2026-04-22T06:38:26.187Z",
-      "read": false
+      "id": "atlasbio",
+      "name": "AtlasBio",
+      "description": "AI-first biotech literature synthesis and experiment planning.",
+      "sector": "BioTech AI",
+      "stage": "Pre-seed",
+      "signals": [
+        {
+          "id": "atlasbio-s1",
+          "source": "GitHub",
+          "content": "Team open-sourced retrieval benchmark scripts for wet-lab planning.",
+          "signalType": "ai",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 70,
+          "dimensions": {
+            "learning": 75,
+            "distribution": 52,
+            "problem": 73,
+            "aiStructure": 81
+          },
+          "insight": "AtlasBio has high technical leverage with still-limited market spread.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     },
     {
-      "id": "alert-hiverun-1776839816779",
-      "startupId": "hiverun",
-      "startupName": "HiveRun",
-      "title": "Alive Score increased: 75 -> 83",
-      "message": "Agent orchestration improvements increased support resolution speed. Evidence: Support teams reported faster median time-to-resolution.",
-      "severity": "medium",
-      "createdAt": "2026-04-22T06:36:56.779Z",
-      "read": false
-    },
-    {
-      "id": "alert-nota-1776839816779",
-      "startupId": "nota",
-      "startupName": "Nota",
-      "title": "Alive Score dropped: 73 -> 63",
-      "message": "Compliance workflow reliability concerns surfaced. Evidence: Two pilot operators paused rollout pending model audits.",
-      "severity": "high",
-      "createdAt": "2026-04-22T06:36:56.779Z",
-      "read": false
-    },
-    {
-      "id": "alert-sparknode-1776839816779",
-      "startupId": "sparknode",
-      "startupName": "SparkNode",
-      "title": "Alive Score increased: 80 -> 92",
-      "message": "New enterprise customer cohort expanded with measurable savings. Evidence: Three new logos reported sustained infra-cost reduction.",
-      "severity": "high",
-      "createdAt": "2026-04-22T06:36:56.779Z",
-      "read": false
-    },
-    {
-      "id": "alert-sparknode-1776839810938",
-      "startupId": "sparknode",
-      "startupName": "SparkNode",
-      "title": "Alive Score increased: 76 -> 80",
-      "message": "Signal momentum improved. Evidence: Community comments highlighted improved onboarding experience. | Community comments highlighted improved onboarding experience.",
-      "severity": "low",
-      "createdAt": "2026-04-22T06:36:50.938Z",
-      "read": false
-    },
-    {
-      "id": "alert-pulsegrid-1776839810937",
-      "startupId": "pulsegrid",
-      "startupName": "PulseGrid",
-      "title": "Alive Score increased: 65 -> 68",
-      "message": "Signal momentum improved. Evidence: Customer interview indicates this workflow is becoming mission critical. | New agent orchestration module merged with extensive tests.",
-      "severity": "low",
-      "createdAt": "2026-04-22T06:36:50.937Z",
-      "read": false
+      "id": "sparknode",
+      "name": "SparkNode",
+      "description": "AI-native cloud cost optimizer with autonomous remediation.",
+      "sector": "Cloud Infra",
+      "stage": "Seed",
+      "signals": [
+        {
+          "id": "sparknode-s1",
+          "source": "RSS",
+          "content": "Three startups reported 18% monthly infra savings after rollout.",
+          "signalType": "problem",
+          "isVerified": true,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "analyses": [
+        {
+          "aliveScore": 76,
+          "dimensions": {
+            "learning": 78,
+            "distribution": 71,
+            "problem": 79,
+            "aiStructure": 77
+          },
+          "insight": "SparkNode combines urgent pain relief with fast learning loops.",
+          "debateLog": {
+            "scout": "Observed startup-level baseline market and product signals.",
+            "analyst": "Scored across learning, distribution, problem, and AI structure.",
+            "skeptic": "Confidence is moderate until repeat cycles confirm trend direction.",
+            "synthesizer": "Use this as baseline state for change tracking."
+          },
+          "confidence": 0.65,
+          "createdAt": "2026-04-19T12:00:00.000Z"
+        }
+      ],
+      "changes": []
     }
-  ],
-  "updatedAt": "2026-04-22T06:48:44.514Z"
+  ]
 }

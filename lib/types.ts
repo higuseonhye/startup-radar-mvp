@@ -31,6 +31,7 @@ export type SignalRecord = {
   id: string;
   source: string;
   content: string;
+  url?: string;
   signalType: "team" | "product" | "distribution" | "problem" | "ai" | "general";
   isVerified: boolean;
   createdAt: string;

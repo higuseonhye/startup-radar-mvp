@@ -25,6 +25,9 @@ AI-native autonomous startup intelligence system for early signal tracking.
 
 ```text
 Signal ingestion
+  -> Tier 1 source adapters (Product Hunt, GitHub, Hacker News)
+  -> Noise filtering + startup keyword matching
+  -> Multi-source convergence signal
   -> Scout Agent (event extraction)
   -> Analyst Agent (4-axis scoring)
   -> Skeptic Agent (confidence/risk check)
@@ -74,6 +77,16 @@ This updates `data/state.json` with:
 - major change entries
 - alert entries for important score moves
 
+## Real source ingestion strategy
+
+The ingestion layer is intentionally Tier 1 first:
+
+- Product Hunt (launch signal, requires token for GraphQL API)
+- GitHub repository momentum
+- Hacker News early-adopter discussion
+
+The engine filters for startup-relevant matches using keyword scoring, then boosts confidence when the same startup appears across multiple independent sources.
+
 ## API routes
 
 - `GET /api/feed`
@@ -101,7 +114,7 @@ This updates `data/state.json` with:
 
 ## Notes
 
-- Data source adapters are currently mocked for MVP speed.
 - SQL schema for relational migration is in `db/schema.sql`.
 - Set `ALERT_WEBHOOK_URL` to forward alert payloads to Slack/Discord/webhook endpoints.
 - Slack and Discord webhooks are auto-formatted for readability.
+- Set `PRODUCT_HUNT_TOKEN` to enable Product Hunt ingestion. Without it, Product Hunt is skipped gracefully.
