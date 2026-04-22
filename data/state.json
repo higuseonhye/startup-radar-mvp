@@ -1,26 +1,4 @@
 {
-  "updatedAt": "2026-04-22T09:12:49.519Z",
-  "portfolio": [
-    {
-      "startupId": "synq",
-      "weight": 35,
-      "note": "Team shipping velocity is strong.",
-      "createdAt": "2026-04-20T11:00:00.000Z"
-    },
-    {
-      "startupId": "sparknode",
-      "weight": 22,
-      "note": "Strong unit-economics signal from early adopters.",
-      "createdAt": "2026-04-20T12:00:00.000Z"
-    },
-    {
-      "startupId": "hiverun",
-      "weight": 18,
-      "note": "High AI-structure score; watch distribution expansion.",
-      "createdAt": "2026-04-20T12:30:00.000Z"
-    }
-  ],
-  "alerts": [],
   "startups": [
     {
       "id": "synq",
@@ -150,6 +128,24 @@
           "signalType": "distribution",
           "isVerified": false,
           "createdAt": "2026-04-19T12:00:00.000Z"
+        },
+        {
+          "id": "pulsegrid-github-1776849613083-0",
+          "source": "GitHub",
+          "content": "OpenMOSS/MOSS-TTS-Nano. MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+          "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+          "signalType": "team",
+          "isVerified": true,
+          "createdAt": "2026-04-22T09:02:03Z"
+        },
+        {
+          "id": "pulsegrid-github-1776862655580-0",
+          "source": "GitHub",
+          "content": "OpenMOSS/MOSS-TTS-Nano. MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+          "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+          "signalType": "team",
+          "isVerified": true,
+          "createdAt": "2026-04-22T12:54:33Z"
         }
       ],
       "analyses": [
@@ -170,9 +166,84 @@
           },
           "confidence": 0.65,
           "createdAt": "2026-04-19T12:00:00.000Z"
+        },
+        {
+          "aliveScore": 61,
+          "dimensions": {
+            "learning": 57,
+            "distribution": 64,
+            "problem": 69,
+            "aiStructure": 56
+          },
+          "insight": "PulseGrid is strongest in problem with a score of 69. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
+          "debateLog": {
+            "scout": "Observed 1 recent signals across 1 categories.",
+            "analyst": "PulseGrid: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
+            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
+            "synthesizer": "PulseGrid is strongest in problem with a score of 69."
+          },
+          "confidence": 0.5375,
+          "confidenceBreakdown": {
+            "signalCount": 1,
+            "sourceDiversity": 1,
+            "verifiedRatio": 1,
+            "consistency": 1,
+            "signalStrength": "low"
+          },
+          "caveats": [
+            "Early signal - limited data points.",
+            "Source diversity is low."
+          ],
+          "createdAt": "2026-04-22T09:20:13.084Z"
+        },
+        {
+          "aliveScore": 57,
+          "dimensions": {
+            "learning": 51,
+            "distribution": 60,
+            "problem": 69,
+            "aiStructure": 51
+          },
+          "insight": "PulseGrid is strongest in problem with a score of 69. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
+          "debateLog": {
+            "scout": "Observed 1 recent signals across 1 categories.",
+            "analyst": "PulseGrid: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
+            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
+            "synthesizer": "PulseGrid is strongest in problem with a score of 69."
+          },
+          "confidence": 0.5375,
+          "confidenceBreakdown": {
+            "signalCount": 1,
+            "sourceDiversity": 1,
+            "verifiedRatio": 1,
+            "consistency": 1,
+            "signalStrength": "low"
+          },
+          "caveats": [
+            "Early signal - limited data points.",
+            "Source diversity is low."
+          ],
+          "createdAt": "2026-04-22T12:57:35.582Z"
         }
       ],
-      "changes": []
+      "changes": [
+        {
+          "id": "pulsegrid-change-1776849613084",
+          "prevScore": 65,
+          "newScore": 61,
+          "reason": "Risk signals increased",
+          "evidence": "OpenMOSS/MOSS-TTS-Nano. MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+          "createdAt": "2026-04-22T09:20:13.084Z"
+        },
+        {
+          "id": "pulsegrid-change-1776862655582",
+          "prevScore": 61,
+          "newScore": 57,
+          "reason": "Risk signals increased",
+          "evidence": "OpenMOSS/MOSS-TTS-Nano. MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+          "createdAt": "2026-04-22T12:57:35.582Z"
+        }
+      ]
     },
     {
       "id": "nota",
@@ -340,6 +411,41 @@
           "signalType": "ai",
           "isVerified": true,
           "createdAt": "2026-04-19T12:00:00.000Z"
+        },
+        {
+          "id": "atlasbio-github-1776849613083-0",
+          "source": "GitHub",
+          "content": "kyegomez/OpenMythos. A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+          "url": "https://github.com/kyegomez/OpenMythos",
+          "signalType": "general",
+          "isVerified": true,
+          "createdAt": "2026-04-22T09:19:18Z"
+        },
+        {
+          "id": "atlasbio-hacker-news-1776849613083-1",
+          "source": "Hacker News",
+          "content": "Diverse organic molecules on Mars revealed by the first SAM TMAH experiment.  https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41467-026-70656-0",
+          "url": "https://www.courthousenews.com/preserved-for-billions-of-years-organic-compounds-found-on-mars/",
+          "signalType": "general",
+          "isVerified": true,
+          "createdAt": "2026-04-21T10:19:49.000Z"
+        },
+        {
+          "id": "atlasbio-convergence-1776849613083",
+          "source": "Radar Engine",
+          "content": "Multi-source convergence detected across GitHub, Hacker News.",
+          "signalType": "distribution",
+          "isVerified": true,
+          "createdAt": "2026-04-22T09:20:13.083Z"
+        },
+        {
+          "id": "atlasbio-github-1776862655581-0",
+          "source": "GitHub",
+          "content": "kyegomez/OpenMythos. A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+          "url": "https://github.com/kyegomez/OpenMythos",
+          "signalType": "general",
+          "isVerified": true,
+          "createdAt": "2026-04-22T12:57:19Z"
         }
       ],
       "analyses": [
@@ -360,6 +466,63 @@
           },
           "confidence": 0.65,
           "createdAt": "2026-04-19T12:00:00.000Z"
+        },
+        {
+          "aliveScore": 72,
+          "dimensions": {
+            "learning": 75,
+            "distribution": 59,
+            "problem": 73,
+            "aiStructure": 81
+          },
+          "insight": "AtlasBio is strongest in aiStructure with a score of 81. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
+          "debateLog": {
+            "scout": "Observed 3 recent signals across 2 categories.",
+            "analyst": "AtlasBio: Observed 3 recent signals across 2 categories. Analyst sees movement in learning/distribution drivers.",
+            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
+            "synthesizer": "AtlasBio is strongest in aiStructure with a score of 81."
+          },
+          "confidence": 0.9125,
+          "confidenceBreakdown": {
+            "signalCount": 3,
+            "sourceDiversity": 3,
+            "verifiedRatio": 1,
+            "consistency": 1,
+            "signalStrength": "high"
+          },
+          "caveats": [
+            "Current evidence is relatively stable, but future updates may change the view."
+          ],
+          "createdAt": "2026-04-22T09:20:13.085Z"
+        },
+        {
+          "aliveScore": 72,
+          "dimensions": {
+            "learning": 75,
+            "distribution": 59,
+            "problem": 73,
+            "aiStructure": 81
+          },
+          "insight": "AtlasBio is strongest in aiStructure with a score of 81. Most recent signals are verified; confidence can increase gradually. Focus on repeated behavior changes, not one-off hype.",
+          "debateLog": {
+            "scout": "Observed 1 recent signals across 1 categories.",
+            "analyst": "AtlasBio: Observed 1 recent signals across 1 categories. Analyst sees movement in learning/distribution drivers.",
+            "skeptic": "Most recent signals are verified; confidence can increase gradually.",
+            "synthesizer": "AtlasBio is strongest in aiStructure with a score of 81."
+          },
+          "confidence": 0.5375,
+          "confidenceBreakdown": {
+            "signalCount": 1,
+            "sourceDiversity": 1,
+            "verifiedRatio": 1,
+            "consistency": 1,
+            "signalStrength": "low"
+          },
+          "caveats": [
+            "Early signal - limited data points.",
+            "Source diversity is low."
+          ],
+          "createdAt": "2026-04-22T12:57:35.582Z"
         }
       ],
       "changes": []
@@ -402,5 +565,48 @@
       ],
       "changes": []
     }
-  ]
+  ],
+  "portfolio": [
+    {
+      "startupId": "synq",
+      "weight": 35,
+      "note": "Team shipping velocity is strong.",
+      "createdAt": "2026-04-20T11:00:00.000Z"
+    },
+    {
+      "startupId": "sparknode",
+      "weight": 22,
+      "note": "Strong unit-economics signal from early adopters.",
+      "createdAt": "2026-04-20T12:00:00.000Z"
+    },
+    {
+      "startupId": "hiverun",
+      "weight": 18,
+      "note": "High AI-structure score; watch distribution expansion.",
+      "createdAt": "2026-04-20T12:30:00.000Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-pulsegrid-1776862655582",
+      "startupId": "pulsegrid",
+      "startupName": "PulseGrid",
+      "title": "Alive Score dropped: 61 -> 57",
+      "message": "Risk signals increased. Evidence: OpenMOSS/MOSS-TTS-Nano. MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+      "severity": "low",
+      "createdAt": "2026-04-22T12:57:35.582Z",
+      "read": false
+    },
+    {
+      "id": "alert-pulsegrid-1776849613084",
+      "startupId": "pulsegrid",
+      "startupName": "PulseGrid",
+      "title": "Alive Score dropped: 65 -> 61",
+      "message": "Risk signals increased. Evidence: OpenMOSS/MOSS-TTS-Nano. MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+      "severity": "low",
+      "createdAt": "2026-04-22T09:20:13.084Z",
+      "read": false
+    }
+  ],
+  "updatedAt": "2026-04-22T12:57:35.582Z"
 }
