@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Startup Radar MVP
 
-## Getting Started
+AI-native autonomous startup intelligence system for early signal tracking.
 
-First, run the development server:
+## What is implemented
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Dynamic startup feed with Alive Score and "what changed" messaging.
+- Startup detail page with:
+  - score breakdown
+  - signal timeline
+  - change history
+  - multi-agent debate log
+- Portfolio page with AI coaching suggestions.
+- Alert stream for major score changes (with optional webhook delivery).
+- PWA support (installable web app + cached shell).
+- Browser notifications for major score changes after update runs.
+- Continuous update loop:
+  - ingest signals
+  - run multi-agent debate
+  - re-evaluate score
+  - detect meaningful changes
+  - persist memory state
+
+## Architecture (MVP)
+
+```text
+Signal ingestion
+  -> Scout Agent (event extraction)
+  -> Analyst Agent (4-axis scoring)
+  -> Skeptic Agent (confidence/risk check)
+  -> Synthesizer Agent (final insight)
+  -> Alive Score calculation
+  -> Change Detector (diff threshold)
+  -> Alert Builder (score-change notifications)
+  -> Memory Store (state + change log + alerts)
+  -> Feed / Detail / Portfolio UI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Score model
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Learning: speed/direction/quality
+- Distribution: adoption and spread signals
+- Problem: urgency and pain strength
+- AI Structure: dependency + defensibility
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Alive Score weights:
 
-## Learn More
+- Learning: `0.30`
+- Distribution: `0.25`
+- Problem: `0.20`
+- AI Structure: `0.25`
 
-To learn more about Next.js, take a look at the following resources:
+## Local run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install
+npm run seed
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000).
 
-## Deploy on Vercel
+## Update cycle command
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Run one autonomous re-evaluation cycle:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run update
+```
+
+This updates `data/state.json` with:
+- new signals
+- fresh analyses
+- major change entries
+- alert entries for important score moves
+
+## API routes
+
+- `GET /api/feed`
+- `POST /api/analyze`
+- `POST /api/update`
+- `GET /api/alerts`
+- `GET /api/startup/:id`
+- `GET /api/portfolio`
+- `POST /api/portfolio`
+
+## Quick walkthrough
+
+1. Open feed and explain that scores are dynamic, not static.
+2. Open one startup detail page and show:
+   - current Alive Score
+   - breakdown across 4 axes
+   - debate log + timeline
+3. Run update:
+   - click `Run Live Update` in UI or run `npm run update`
+4. Refresh and show:
+   - score changed
+   - reason logged in change history
+5. Open portfolio page and show AI suggestion change.
+6. Show the alert section updating after a score shift.
+
+## Notes
+
+- Data source adapters are currently mocked for MVP speed.
+- SQL schema for relational migration is in `db/schema.sql`.
+- Set `ALERT_WEBHOOK_URL` to forward alert payloads to Slack/Discord/webhook endpoints.
+- Slack and Discord webhooks are auto-formatted for readability.
